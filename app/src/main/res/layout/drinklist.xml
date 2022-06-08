@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drinklist"
+    tools:context=".drinklist">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
+        android:onClick="back"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/cart"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="cart"
+        android:src="@drawable/cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/cart" />
+
+    <ImageView
+        android:id="@+id/addit"
+        android:layout_width="31dp"
+        android:layout_height="32dp"
+        android:onClick="addit"
+        android:src="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315"
+        app:srcCompat="@drawable/add" />
+
+    <ImageView
+        android:id="@+id/addlt"
+        android:layout_width="31dp"
+        android:layout_height="32dp"
+        android:onClick="addlt"
+        android:src="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addit"
+        app:layout_constraintVertical_bias="0.260"
+        app:srcCompat="@drawable/add" />
+
+    <ImageView
+        android:id="@+id/addcc"
+        android:layout_width="31dp"
+        android:layout_height="32dp"
+        android:onClick="addcc"
+        android:src="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addlt"
+        app:layout_constraintVertical_bias="0.438"
+        app:srcCompat="@drawable/add" />
+
+    <ImageView
+        android:id="@+id/addmsc"
+        android:layout_width="31dp"
+        android:layout_height="32dp"
+        android:onClick="addmsc"
+        android:src="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addcc"
+        app:layout_constraintVertical_bias="0.85"
+        app:srcCompat="@drawable/add" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
